@@ -9,7 +9,7 @@ import {environment} from 'src/environments/environment';
 })
 export class CustomerService {
 
-  private  baseUrl = 'http://localhost:8080/api/v1/customers';
+  private  baseUrl = '/api/v1/customers';
 
   constructor(private http: HttpClient) { }
 
