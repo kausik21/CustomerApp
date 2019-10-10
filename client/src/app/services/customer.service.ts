@@ -9,7 +9,7 @@ import {environment} from 'src/environments/environment';
 })
 export class CustomerService {
 
-  private  baseUrl = '/api/v1/customers';
+  private  baseUrl = 'https://customer2019.herokuapp.com/api/v1/customers';
 
   constructor(private http: HttpClient) { }
 
